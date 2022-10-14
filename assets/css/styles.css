@@ -8,10 +8,6 @@ body{
     margin: 0;
     box-sizing: border-box;
     position: relative;
-    /*width: 1366px;
-    height: 987px;
-    Top: -272px;
-    Left: 486px;*/
     background: #000000;
     font-family: var(--font);
 }
@@ -81,18 +77,17 @@ li.contact{
 .aside{
     position: absolute;
     width: 7rem;
-    height: 39.4rem;
+    height: 53.85rem;
     left: -3px;
-    top: -21px;
+    top: -1rem;
     background: #A1A2A3;
 }
 
 .img-aside img{
     position: absolute;
-    left: 20.9%;
+    left: 27%;
     right: 93.57%;
-    top: 6.89%;
-    bottom: 91.08%;
+    top: 10%;
     width: 4rem;
 }
 
@@ -101,10 +96,10 @@ li.contact{
     width: 40rem;
     height: 200px;
     left: -22rem;
-    top: 355px;
+    top: 430px;
     font-style: normal;
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     line-height: 22px;
     /* identical to box height */
     letter-spacing: 1.25em;
@@ -159,7 +154,7 @@ li.contact{
     top: 400px;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.1rem;
     line-height: 22px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
@@ -171,7 +166,7 @@ li.contact{
     width: 120px;
     height: 38px;
     left: 190px;
-    top: 520px;
+    top: 530px;
     background: #A1A2A3;
     border: none;
     border-radius: 10px;
@@ -180,13 +175,48 @@ li.contact{
     font-size: 12px;
     line-height: 18px;
     color: #000000;
+    cursor: pointer;
 }
 
 .image-shoe .imgs img{
     position: absolute;
-    width: 604.92px;
-    height: 398.38px;
-    left: 648.81px;
+    width: 500px;
+    height: 450px;
+    left: 680px;
     top: 150px;
-    transform: rotate(-10deg);
+    transform: rotate(-1deg);
+}
+
+.ellipse1 img{
+    position: absolute;
+    left: 68rem;
+    top: 300px;
+    width: 120px;
+    height: 120px;
+    transform: rotate(-1deg);
+}
+
+.ellipse2 img{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 900px;
+    top:450px;
+}
+
+.ellipse3 img{
+    position: absolute;
+    z-index: -1;
+    width: 210px;
+    height: 210px;
+    left: 810px;
+    top: 170px;
+}
+
+.shadow img{
+    position: absolute;
+    width: 550px;
+    height: 90px;
+    left: 750px;
+    top: 570px;
 }
