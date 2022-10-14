@@ -8,9 +8,9 @@ body{
     margin: 0;
     box-sizing: border-box;
     position: relative;
-    width: 1366px;
+    /*width: 1366px;
     height: 987px;
-    /*Top: -272px;
+    Top: -272px;
     Left: 486px;*/
     background: #000000;
     font-family: var(--font);
@@ -20,59 +20,58 @@ body{
     position: absolute;
     width: 659px;
     height: 55px;
-    left: 539px;
-    top: 68px;
+    left: 450px;
+    top: 40px;
     color: white;
 }
 
-.home{
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+li.home{
     position: absolute;
     width: 241px;
     height: 55px;
-    left: 539px;
-    top: 68px;
+    left: 39px;
+    top: 6px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
 }
 
-.collection{
+li.collection{
     position: absolute;
     width: 241px;
     height: 55px;
-    left: 657px;
-    top: 68px;
-
-    font-family: 'Barlow';
+    left: 150px;
+    top: 6px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
 }
 
-.about{
+li.about{
     position: absolute;
     width: 241px;
     height: 55px;
-    left: 820px;
-    top: 68px;
-
-    font-family: 'Barlow';
+    left: 320px;
+    top: 6px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
 }
 
-.contact{
+li.contact{
     position: absolute;
     width: 241px;
     height: 55px;
-    left: 957px;
-    top: 68px;
-
-    font-family: 'Barlow';
+    left: 450px;
+    top: 6px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -81,8 +80,8 @@ body{
 
 .aside{
     position: absolute;
-    width: 122px;
-    height: 70rem;
+    width: 7rem;
+    height: 39.4rem;
     left: -3px;
     top: -21px;
     background: #A1A2A3;
@@ -90,24 +89,66 @@ body{
 
 .img-aside img{
     position: absolute;
-    left: 20.5%;
+    left: 20.9%;
     right: 93.57%;
     top: 6.89%;
     bottom: 91.08%;
+    width: 4rem;
 }
 
 .text-aside h1{
     position: absolute;
     width: 40rem;
     height: 200px;
-    left: -21.5rem;
-    top: 450px;
+    left: -22rem;
+    top: 355px;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 0.8rem;
     line-height: 22px;
     /* identical to box height */
     letter-spacing: 1.25em;
     transform: rotate(90deg);
+}
+
+.tittle h1{
+    position: absolute;
+    width: 727px;
+    height: 168px;
+    left: 190px;
+    top: 10px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 160px;
+    line-height: 199px;
+    color: #FFFFFF;
+}
+
+.class h2{
+    position: absolute;
+    width: 678px;
+    height: 70px;
+    left: 200px;
+    top: 260px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+    color: #CCC8C8;
+}
+
+.price p{
+    position: absolute;
+    width: 638px;
+    height: 68px;
+    left: 200px;
+    top: 320px;
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 54px;
+    color: #FFFFFF;
 }
